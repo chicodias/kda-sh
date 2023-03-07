@@ -1,0 +1,22 @@
+publicMeta:
+  chainId: "0"
+  sender: k:368820f80c324bbc7c2b0610688a7da43e39f91d118732671cd9c7500ff43cca
+  gasLimit: 150000
+  gasPrice: 0.00000001
+  ttl: 3600
+  creationTime: 1677270874
+signers:
+  - public: 368820f80c324bbc7c2b0610688a7da43e39f91d118732671cd9c7500ff43cca
+    caps:
+      - name: kaddex.dao2.OPS
+        args: []
+      - name: coin.GAS
+        args: []
+networkId: development
+code: "(kaddex.dao2.create-proposal \n\"Test proposal 333123\" \n\"This is a proposal.  \"\n\"k:e8c6a5f35ef56142e071dfecea46635575e3e41ecf760a9bcfe574f87544b934\" \n(time \"2023-02-26T17:25:00Z\") \n(time \"2023-03-09T12:00:00Z\") )\n    "
+data:
+  kdx-ns-ops:
+    keys:
+      - 368820f80c324bbc7c2b0610688a7da43e39f91d118732671cd9c7500ff43cca
+    pred: keys-all
+type: exec

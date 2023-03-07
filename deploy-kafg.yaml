@@ -1,0 +1,18 @@
+codeFile: kAFG.pact
+networkId: development
+signers:
+  - public: f89ef46927f506c70b6a58fd322450a936311dc6ac91f4ec3d8ef949608dbf1f
+    caps:
+      - name: coin.GAS
+        args: []
+  - public: 67db331e77818f6bb7a041176ac62bd223e8b4dd509743ca99b1278435d7db7b
+data:
+  ns: "eigen"
+  erc-address: "0xAf0131Ee324841a3Dc69854ee2B4E4372e2085BB"
+  upgrade: true
+publicMeta:
+  chainId: "0"
+  gasLimit: 100000
+  ttl: 7200
+  sender: k:67db331e77818f6bb7a041176ac62bd223e8b4dd509743ca99b1278435d7db7b
+  gasPrice: 0.000001

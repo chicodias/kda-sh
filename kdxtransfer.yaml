@@ -1,0 +1,32 @@
+publicMeta:
+  chainId: "0"
+  sender: "k:368820f80c324bbc7c2b0610688a7da43e39f91d118732671cd9c7500ff43cca"
+  gasLimit: 1000000
+  gasPrice: 0.00000001
+  creationTime: 1674566735
+  ttl: 36000
+signers:
+  - public: 368820f80c324bbc7c2b0610688a7da43e39f91d118732671cd9c7500ff43cca
+    caps:
+      - name: kaddex.kdx.TRANSFER
+        args:
+          [
+            "k:368820f80c324bbc7c2b0610688a7da43e39f91d118732671cd9c7500ff43cca",
+            "kdx-faucet",
+            10000.0,
+          ]
+      - name: coin.GAS
+        args: []
+networkId: development
+code: |-
+  (kaddex.kdx.transfer "k:368820f80c324bbc7c2b0610688a7da43e39f91d118732671cd9c7500ff43cca" "kdx-faucet" 10000.0)
+data:
+  kdx-admin-keyset:
+    keys:
+      - 368820f80c324bbc7c2b0610688a7da43e39f91d118732671cd9c7500ff43cca
+    pred: keys-all
+  kaddex-ns-admin:
+    keys:
+      - 368820f80c324bbc7c2b0610688a7da43e39f91d118732671cd9c7500ff43cca
+    pred: keys-all
+type: exec
